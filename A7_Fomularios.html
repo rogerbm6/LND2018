@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form action="/my-handling-form-page" method="post">
+        <fieldset>
+            <legend>Informacion personal</legend>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido"><br />
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre"><br />
+            <label for="Direccion">Direccion:</label>
+            <input type="text" id="Direccion"><br />
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <legend>Sistema Operativo</legend>
+            <select>
+                <option value="" selected="selected">--selecciona SO--</option>
+                <option value="Windows">Windows</option>
+                <option value="Mac">Mac</option>
+                <option value="Linux">Linux</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </fieldset>
+        <br />
+
+
+        <fieldset>
+            <legend>Computador Personal</legend>
+            <label>¿Tienes computador en casa?</label><br /><br />
+            <input type="radio" name="cp" checked="checked" />Ninguno<br />
+            <input type="radio" name="cp" />Si<br />
+            <input type="radio" name="cp"/>No<br />
+
+            <p>Si tienes, describe sus caracteristicas: </p>
+            <textarea name="caracteristicas" cols="40" rows="5"></textarea><br />
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
+        </fieldset>
+        <br />
+
+    </form>
+
+</body>
