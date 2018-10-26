@@ -1,0 +1,15 @@
+body {
+    font-family:  Times New Roman
+}
+h1{
+    color: #ff0000;
+    font-size: 4em
+    
+}
+#parrafo{rgb(255, 45 35)}
+
+#palabra{color: brown; font-weight: bold}
+
+#palabra2{color: darkblue; font-style: italic}
+
+li{color: forestgreen; background-color: lightcoral}
