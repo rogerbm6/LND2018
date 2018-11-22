@@ -1,0 +1,54 @@
+#titulo {
+    font-family: monospace;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    position: fixed;
+    width: 100px;
+    left: 1px;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: auto;
+    height: 60%;
+}
+
+li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+
+article{
+    display: flixed;
+    padding: 10px 125px;
+    margin-right: 40%;
+    
+}
+
+
+li a:hover{
+    background-color: #555;
+    color: aliceblue;
+}
+
+
+p{
+    font-size: 20px;
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+    background-color: black;
+    
+}
